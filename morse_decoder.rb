@@ -9,3 +9,11 @@ MORSE_CODE = {
   "....-" => "4", "....." => "5", "-...." => "6", "--..." => "7", "---.." => "8",
   "----." => "9"
 }
+
+def decode_char(morse_char)
+  MORSE_CODE[morse_char]
+end
+
+def decode_word(morse_word)
+  morse_word.split.map { |char| decode_char(char) }.join
+end
