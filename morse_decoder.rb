@@ -8,8 +8,8 @@ MORSE_CODE = {
   '--..' => 'Z', '-----' => '0', '.----' => '1', '..---' => '2', '...--' => '3',
   '....-' => '4', '.....' => '5', '-....' => '6', '--...' => '7', '---..' => '8',
   '----.' => '9'
-}
-  
+}.freeze
+
 def decode_char(morse_char)
   MORSE_CODE[morse_char]
 end
@@ -26,5 +26,5 @@ def decode(morse_code)
   morse_code.split('   ').map { |word| decode_word(word) }.join(' ')
 end
 
- # Use the 'decode' function to decode the message
- puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+# Use the 'decode' function to decode the message
+puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
