@@ -28,7 +28,6 @@
 # 📖 Morse Code Decoder <a name="about-project">Morse Code Ruby</a>
 
 **Morse Code Decoder** is a Morse Code decoder written in Ruby. Its primary goal is to decode Morse Code messages into English text.
-
 Description:
 
 During a seaside vacation, numerous old bottles containing parchments with Morse code messages were discovered. This led to the creation of this Ruby program, which is designed to automate the process of Morse code decryption.
