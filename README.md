@@ -2,7 +2,7 @@
 
 <a name="readme-top"></a>
 <div align="center">
-    <img src="morse.png" alt="logo" width="750"  height="auto" />
+    <img src="morse.png" alt="logo" width="700"  height="auto" />
   <br/>
   <h3><b>Morse Code Decoder</b></h3>
 </div>
